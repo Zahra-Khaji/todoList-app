@@ -1,0 +1,45 @@
+.App{
+    background-color: #f3e5f5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    color: #a21caf;
+    /* margin: 1.5rem auto; */
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h2{
+    color: #a21caf;
+    font-weight: 150;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+
+}
+
+
+@media screen  and (min-width:1024px){
+    h1{
+    font-size: 1.8rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+
+
+
+    }
+    h2{
+    font-size: 1.5rem;
+
+    }
+  
+  }
+

@@ -1,0 +1,92 @@
+.navBar{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.Numcontainer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* background-color: #fff; */
+    justify-content: flex-start;
+
+}
+
+.tasksNum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.3rem;
+    border-radius: 100%;
+    background-color: #e879f9;
+    border: 1px solid #701a75;
+    text-align: center;
+    color: #701a75;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: gray; */
+    /* margin: 0 1.5rem; */
+   
+    /* background-color: blue; */
+
+}
+.text{
+    color: #86198f;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.select{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #86198f;
+    color: #86198f;
+    background-color: #fff;
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-family: "iranyekan";
+    /* text-align: center; */
+}
+
+.select:focus{
+    border: 2px solid #86198f;
+    font-family: "iranyekan";
+
+}
+
+.option{
+    font-family: "iranyekan";
+
+}
+
+@media screen  and (min-width:1024px){
+    .text{
+    font-size: 1.5rem;
+
+
+    }
+    .select{
+    font-size: 1.4rem;
+    margin-left: 6rem;
+
+    }
+    .tasksNum{
+        font-size: 1.2rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+    }
+  
+  }
+
+

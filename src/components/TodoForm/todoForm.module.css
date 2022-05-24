@@ -1,0 +1,92 @@
+.todoForm{
+    width: 100%;
+    display: flex;
+    margin-top: 3.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.taskInput{
+    outline: none;
+    border: 1px solid #ab47bc;
+    padding: 1rem 2.5rem;
+    background-color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+    border-radius: 5px;
+ 
+}
+::placeholder{
+    font-size: 1.1rem;
+}
+
+.taskInput:focus{
+    border: 2px solid #ab47bc;
+
+}
+
+.todoControl{
+    display: flex;
+    width: 100%;
+     align-items: center;
+     justify-content: center
+}
+.iconholder{
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #e879f9;
+    border: 1px solid #701a75;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    border-radius: 100%;
+    width: 2.3rem;
+    height:2.3rem;
+    color: #701a75;
+   
+}
+
+.btnAdd{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+@media screen  and (min-width:1024px){
+    .taskInput{
+        font-size: 1.4rem;
+        padding: 1rem 8rem;
+        /* text-align: start; */
+
+    }
+    ::placeholder{
+        font-size: 1.3rem;
+    }
+
+    .iconholder{
+        width: 2.5rem;
+        height:2.5rem;
+
+    }
+    .todoForm{
+        margin-top: 3.7rem;
+        margin-bottom: 2rem;
+    }
+  
+  
+  }
+
+  .iconEditHolder{
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 0.9rem;
+    margin-left: 0.7rem;
+    border-radius: 100%;
+    width: 2.3rem;
+    height:2.3rem;
+    color: #701a75;
+}

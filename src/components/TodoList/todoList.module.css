@@ -1,0 +1,148 @@
+.todoList{
+    margin: 1rem ;
+    width: 95%;
+}
+
+
+.taskContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem auto;
+    font-size: 1.2rem;
+    /* border: 1px solid #701a75; */
+    border: 1.5px solid #ab47bc;
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    max-width: 500px;
+
+}
+.iconContainer{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+}
+.iconholder{
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #e879f9;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    border-radius: 100%;
+    width: 2rem;
+    height:2rem;
+    color: #701a75;
+   
+}
+.iconDoneHolder{
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #e879f9; */
+    /* background-color: #84CC16; */
+    /* border: 1px solid #701a75; */
+
+    cursor: pointer;
+    margin-right: 0.5rem;
+    border-radius: 100%;
+    width: 2.3rem;
+    height:2.3rem;
+    /* color: #701a75; */
+    color: #65A30D;
+    
+}
+.iconEditHolder{
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 0.9rem;
+    margin-left: 0.7rem;
+    border-radius: 100%;
+    width: 2.3rem;
+    height:2.3rem;
+    color: #701a75;
+}
+
+.iconDeleteHolder{
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #e879f9; */
+    cursor: pointer;
+    margin-right: 0.5rem;
+    border-radius: 100%;
+    width: 2.3rem;
+    height:2.3rem;
+    color: #DC2626;
+    /* border: 1px solid #701a75; */
+
+
+}
+
+
+.btnEdit{
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ab47bc;
+    color:#ab47bc ;
+
+
+}
+
+.btnDelete{
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    /* padding: 8px 10px; */
+    /* font-weight: 700; */
+    border: 1px solid #ef4444;
+    color: #ef4444;
+}
+.btnDone{
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    /* padding: 8px 10px; */
+    /* font-weight: 700; */
+    border: 1px solid #65a30d;
+    color: #65a30d;
+}
+
+.doneTask{
+    text-decoration: line-through;
+    color: #701a75;
+}
+.text{
+    color: #701a75;  
+}
+
+@media screen  and (min-width:1024px){
+    .taskContainer{
+        font-size: 1.5rem;
+        padding: 1.2rem 3rem;
+
+    }
+    .iconDoneHolder,.iconEditHolder,.iconDeleteHolder{
+        width: 2.5rem;
+        height:2.5rem;
+
+    }
+    .iconEditHolder{
+        margin-right: 1.2rem;
+        margin-left: 1rem;
+
+    }
+
+  
+  
+  }
+
+
